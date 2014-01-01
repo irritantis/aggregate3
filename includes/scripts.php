@@ -1,0 +1,2 @@
+<script src="<?php echo get_template_directory_uri(); ?>/js/superfish.js" type="text/javascript"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/custom.js" type="text/javascript"></script>
