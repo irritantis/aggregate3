@@ -470,3 +470,74 @@ a#cancel-comment-reply-link { display: block; color: #00B7F3; font-size: 12px; }
 
 #ie7 #second-menu { position: relative; z-index: 99; }
 .opera #second-menu { margin-top:-1px; }
+
+
+/* irritantis.info */
+
+.loopsingle h3 {
+	border-left: 12px solid #dcdcdc;
+	padding: 0.7em;
+	margin: 1.2em 0 0.7em;
+	font-weight: bold;
+	font-size: 1.75em;
+	background-color: #f5f5f5;
+}
+
+.loopsingle h4 {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 1.2em 0 0.7em;
+}
+
+.addthis_default_style { margin-bottom: 1.2em; }
+
+#entries p, #entries h3, #entries h4 {
+	line-height: 1.7;
+}
+
+#entries p {
+	font-size: 1.2em;
+	padding-bottom: 0.8em;
+}
+
+#entries p.meta-info { font-size: 0.9em; }
+#entries p a { font-weight: bold; }
+
+#entries ol, #entries ul {
+	line-height: 1.7;
+	font-size: 1.2em;
+	padding-bottom: 0.8em;
+}
+
+ol.long li, ul.long li { margin-bottom: 0.8em; }
+
+#entries p img {
+	display: inline-block;
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+	margin: 10px;
+}
+
+#entries img.kadomaru {
+	border-radius: 10px;
+}
+
+#entries blockquote p {
+	font-style: normal;
+	font-size: 1.0em;
+	padding-bottom: 0;
+}
+
+strong {
+	color: #dc143c;
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.entry hr {
+	margin: 10px 0 20px;
+}
+
+#entries iframe { margin-bottom:20px; }
