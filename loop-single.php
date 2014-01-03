@@ -24,12 +24,6 @@
 					$thumb = $thumbnail["thumb"];
 				?>
 
-				<?php if($thumb <> '') { ?>
-					<div class="thumb">
-						<?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, $classtext); ?>
-						<span class="overlay"></span>
-					</div> 	<!-- end .thumb -->
-				<?php } ?>
 			<?php } ?>
 
 			<?php the_content(); ?>
