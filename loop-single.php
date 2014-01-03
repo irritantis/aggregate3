@@ -27,8 +27,6 @@
 			<?php } ?>
 
 			<?php the_content(); ?>
-
-<!-- X:S ZenBackWidget --><script type="text/javascript">document.write(unescape("%3Cscript")+" src='http://widget.zenback.jp/?base_uri=http%3A//irritantis.info&nsid=91203464637513517%3A%3A91203469469288366&rand="+Math.ceil((new Date()*1)*Math.random())+"' type='text/javascript'"+unescape("%3E%3C/script%3E"));</script><!-- X:E ZenBackWidget -->
 			
 			<?php wp_link_pages(array('before' => '<p><strong>'.esc_html__('Pages','Aggregate').':</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 			<?php edit_post_link(esc_html__('Edit this page','Aggregate')); ?>
