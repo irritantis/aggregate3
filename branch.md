@@ -3,6 +3,8 @@ branch test
 
 loremではなく日本語を追加してみる。
 
+pull requestのテストです
+
 これはja2です。日本語を追加してます。
 さらに日本語を追加
 
