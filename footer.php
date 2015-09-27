@@ -38,7 +38,7 @@
 					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer') ) : ?>
 					<?php endif; ?>
 				</div> <!-- end #footer-widgets -->
-				<p id="copyright">Creative Commons <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">BY-SA 3.0</a> written by <a href="https://plus.google.com/115480326621038618594" rel="author">Satoshi Iritani (@irritantis)</a> | <?php esc_html_e('Designed by ','Aggregate'); ?> <a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant WordPress Themes</a> | <?php esc_html_e('Powered by ','Aggregate'); ?> <a href="http://www.wordpress.org">WordPress</a></p>
+				<p id="copyright"><?php esc_html_e('Designed by ','Aggregate'); ?> <a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant WordPress Themes</a> | <?php esc_html_e('Powered by ','Aggregate'); ?> <a href="http://www.wordpress.org">WordPress</a></p>
 			</div> <!-- end .container -->
 		</div> <!-- end #footer-top-shadow -->
 		<div id="footer-bottom-shadow"></div>

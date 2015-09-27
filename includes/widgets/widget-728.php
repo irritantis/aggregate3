@@ -1,9 +1,9 @@
 <?php class AdBlockWidget extends WP_Widget
 {
-    function AdBlockWidget(){
+    function __construct(){
 		$widget_ops = array('description' => 'Displays Advertisement');
 		$control_ops = array('width' => 400, 'height' => 300);
-		parent::WP_Widget(false,$name='ET Ad Block',$widget_ops,$control_ops);
+		parent::__construct(false,$name='ET Ad Block',$widget_ops,$control_ops);
     }
 
   /* Displays the Widget in the front-end */

@@ -1,9 +1,9 @@
 <?php class ETPhotostream extends WP_Widget
 {
-    function ETPhotostream(){
+    function __construct(){
 		$widget_ops = array('description' => 'Displays photos from any category');
 		$control_ops = array('width' => 400, 'height' => 300);
-		parent::WP_Widget(false,$name='ET Photostream Widget',$widget_ops,$control_ops);
+		parent::__construct(false,$name='ET Photostream Widget',$widget_ops,$control_ops);
     }
 
   /* Displays the Widget in the front-end */

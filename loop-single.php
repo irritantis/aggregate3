@@ -7,7 +7,7 @@
 	<?php } ?>
 
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-		<div class="entry post clearfix loopsingle">
+		<div class="entry post clearfix">
 			<?php if (get_option('aggregate_integration_single_top') <> '' && get_option('aggregate_integrate_singletop_enable') == 'on') echo(get_option('aggregate_integration_single_top')); ?>
 
 			<h1 class="title"><?php the_title(); ?></h1>
@@ -24,10 +24,15 @@
 					$thumb = $thumbnail["thumb"];
 				?>
 
+				<?php if($thumb <> '') { ?>
+					<div class="thumb">
+						<?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, $classtext); ?>
+						<span class="overlay"></span>
+					</div> 	<!-- end .thumb -->
+				<?php } ?>
 			<?php } ?>
 
 			<?php the_content(); ?>
-			
 			<?php wp_link_pages(array('before' => '<p><strong>'.esc_html__('Pages','Aggregate').':</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 			<?php edit_post_link(esc_html__('Edit this page','Aggregate')); ?>
 		</div> <!-- end .entry -->
