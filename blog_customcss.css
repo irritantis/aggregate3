@@ -26,6 +26,8 @@ strong {
 em {
 	font-style: normal;
 	font-weight: bold;
+	color: #727171;
+	font-size: 80%;
 }
 
 .loopsingle h3 {
@@ -49,6 +51,7 @@ em {
 
 #entries h3, #entries h4 {
 	line-height: 1.7;
+	border-bottom: 1px dotted #ccc;
 }
 
 #entries p {
@@ -114,16 +117,24 @@ ol.long li, ul.long li {
 	font-size: 80%;
 }
 
-iframe, embed, #entries img { max-width: 100%;}
+iframe, embed, #entries img {
+	max-width: 100%;
+}
+
+.wp-caption {
+	margin-bottom: 30px;
+}
 
 /*Responsive Smartphone style*/
 @media only screen and ( max-width: 479px ) {
 	.container {
 		width: 340px;
 	}
+	
 	.recent-from, .recent-last, .recent-middle, #left-area {
 		width: 337px !important;
 	}
+	
 	#entries {
 		padding: 31px 19px 27px;
 	}
