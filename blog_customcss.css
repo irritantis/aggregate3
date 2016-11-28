@@ -21,6 +21,7 @@ body {
 
 strong {
 	color: #dc143c;
+	background: linear-gradient(transparent 60%,#ffff66 60%);
 }
 
 em {
@@ -64,6 +65,11 @@ em {
 	font-size: .9em;
 }
 
+#entries p.memo, span.memo {
+	color: #727171;
+	font-size: 80%;
+}
+
 #entries p a {
 	text-decoration: underline;
 }
@@ -103,7 +109,7 @@ ol.long li, ul.long li {
 	margin-bottom: 20px;
 }
 
-.entry blockquote {
+#entries blockquote {
 	font-style: normal;
 	background: transparent;
 }
@@ -113,8 +119,19 @@ ol.long li, ul.long li {
 	font-size: .9em;
 }
 
-.entry small {
+#entries small {
 	font-size: 80%;
+}
+
+#entries p.note, #entries span.note {
+	font-size: 1em;
+	color: #999999;
+}
+
+.loopsingle #jp-relatedposts h3.jp-relatedposts-headline {
+border: none;
+background: none;
+font-size: 1.4em;
 }
 
 iframe, embed, #entries img {
